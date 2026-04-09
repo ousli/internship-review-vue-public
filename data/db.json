@@ -61,6 +61,12 @@
       "startDate": "2024-10-01"
     }
   ],
-  "favorites": []
+  "favorites": [],
+  "searchHistory": [
+    {
+      "query": "stage",
+      "createdAt": "2026-04-09T13:30:38.869Z",
+      "id": 1
+    }
+  ]
 }
-

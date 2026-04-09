@@ -1,5 +1,14 @@
 # internship-review-vue
 
+```
+Groupe :
+
+Louis LÉVÊQUE
+Elisa HUGGONET
+
+SUJET A
+```
+
 Monorepo « recherche de stages » : Vue 3 (Vite) + Nuxt 4. Même API partagée (json-server).
 
 ## Structure
@@ -24,13 +33,13 @@ Si l'installation échoue (erreurs partielles, « prefix can't find module », e
 
 ## Commandes depuis la racine
 
-| Commande | Description |
-|----------|-------------|
-| `npm run dev:vue` | Lancer l’app Vue en dev (Vite) |
-| `npm run dev:nuxt` | Lancer l’app Nuxt en dev |
-| `npm run build:vue` | Build production de l’app Vue |
-| `npm run build:nuxt` | Build production de l’app Nuxt |
-| `npm run test:vue` | Tests unitaires de l’app Vue |
+| Commande              | Description                          |
+| --------------------- | ------------------------------------ |
+| `npm run dev:vue`     | Lancer l’app Vue en dev (Vite)       |
+| `npm run dev:nuxt`    | Lancer l’app Nuxt en dev             |
+| `npm run build:vue`   | Build production de l’app Vue        |
+| `npm run build:nuxt`  | Build production de l’app Nuxt       |
+| `npm run test:vue`    | Tests unitaires de l’app Vue         |
 | `npm run json-server` | Démarrer l’API mock sur le port 3000 |
 
 Les deux apps pointent vers `http://localhost:3000` pour l’API. Démarrer `json-server` avant ou en parallèle de `dev:vue` ou `dev:nuxt` pour les offres / auth.

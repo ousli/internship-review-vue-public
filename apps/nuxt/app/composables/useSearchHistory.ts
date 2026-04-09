@@ -1,10 +1,10 @@
-interface SearchHistoryEntry {
+export interface SearchHistoryEntry {
   id: number
   query: string
   createdAt: string
 }
 
-interface SearchHistoryError {
+export interface SearchHistoryError {
   error: string
   status?: number
 }
